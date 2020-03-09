@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_2586 net/minecraft/block/entity/BlockEntity
-	FIELD field_11863 world Lnet/minecraft/class_1937;
+	FIELD field_11863 level Lnet/minecraft/class_1937;
 	FIELD field_11864 type Lnet/minecraft/class_2591;
 	FIELD field_11865 removed Z
 	FIELD field_11866 cachedState Lnet/minecraft/class_2680;
@@ -9,12 +9,12 @@ CLASS net/minecraft/class_2586 net/minecraft/block/entity/BlockEntity
 	METHOD <init> (Lnet/minecraft/class_2591;)V
 		ARG 1 type
 	METHOD method_10996 cancelRemoval ()V
-	METHOD method_10997 getWorld ()Lnet/minecraft/class_1937;
+	METHOD method_10997 getLevel ()Lnet/minecraft/class_1937;
 	METHOD method_10998 setPos (Lnet/minecraft/class_2338;)V
 	METHOD method_10999 writeIdentifyingData (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;
 	METHOD method_11000 resetBlock ()V
 	METHOD method_11001 applyMirror (Lnet/minecraft/class_2415;)V
-	METHOD method_11002 hasWorld ()Z
+	METHOD method_11002 hasLevel ()Z
 	METHOD method_11003 populateCrashReport (Lnet/minecraft/class_129;)V
 	METHOD method_11004 onBlockAction (II)Z
 	METHOD method_11005 createFromTag (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2586;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1945 net/minecraft/world/ModifiableWorld
+CLASS net/minecraft/class_1945 net/minecraft/world/level/ModifiableLevel
 	METHOD method_22352 breakBlock (Lnet/minecraft/class_2338;Z)Z
 		ARG 1 pos
 		ARG 2 drop

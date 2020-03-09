@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_638 net/minecraft/client/world/ClientWorld
+CLASS net/minecraft/class_638 net/minecraft/client/world/ClientLevel
 	FIELD field_17675 mapStates Ljava/util/Map;
 	FIELD field_17777 globalEntities Ljava/util/List;
 	FIELD field_17778 regularEntities Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;

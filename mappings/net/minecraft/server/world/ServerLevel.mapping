@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_3218 net/minecraft/server/world/ServerWorld
+CLASS net/minecraft/class_3218 net/minecraft/server/world/ServerLevel
 	FIELD field_13948 idleTimeout I
 	FIELD field_13949 blockTickScheduler Lnet/minecraft/class_1949;
 	FIELD field_13950 pendingBlockActions Lit/unimi/dsi/fastutil/objects/ObjectLinkedOpenHashSet;

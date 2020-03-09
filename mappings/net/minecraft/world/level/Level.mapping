@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1937 net/minecraft/world/World
+CLASS net/minecraft/class_1937 net/minecraft/world/level/Level
 	FIELD field_16316 profiler Ljava/util/function/Supplier;
 	FIELD field_17086 thread Ljava/lang/Thread;
 	FIELD field_18139 unloadedBlockEntities Ljava/util/List;

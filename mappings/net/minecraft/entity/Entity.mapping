@@ -50,7 +50,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	FIELD field_5999 renderDistanceMultiplier D
 	FIELD field_6000 submergedInWater Z
 	FIELD field_6001 trackedX J
-	FIELD field_6002 world Lnet/minecraft/class_1937;
+	FIELD field_6002 level Lnet/minecraft/class_1937;
 	FIELD field_6003 nextStepSoundDistance F
 	FIELD field_6004 prevPitch F
 	FIELD field_6005 entityBounds Lnet/minecraft/class_238;
@@ -88,7 +88,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	FIELD field_6039 prevHorizontalSpeed F
 	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-		ARG 2 world
+		ARG 2 level
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
 	METHOD method_17681 getWidth ()F
