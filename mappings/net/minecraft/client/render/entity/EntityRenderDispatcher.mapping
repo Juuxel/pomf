@@ -5,7 +5,7 @@ CLASS net/minecraft/class_898 net/minecraft/client/render/entity/EntityRenderDis
 	FIELD field_4680 renderHitboxes Z
 	FIELD field_4681 renderShadows Z
 	FIELD field_4683 playerRenderer Lnet/minecraft/class_1007;
-	FIELD field_4684 world Lnet/minecraft/class_1937;
+	FIELD field_4684 level Lnet/minecraft/class_1937;
 	FIELD field_4685 textureManager Lnet/minecraft/class_1060;
 	FIELD field_4686 camera Lnet/minecraft/class_4184;
 	FIELD field_4687 modelRenderers Ljava/util/Map;
@@ -61,11 +61,11 @@ CLASS net/minecraft/class_898 net/minecraft/client/render/entity/EntityRenderDis
 		ARG 1 rotation
 	METHOD method_24197 getRotation ()Lnet/minecraft/class_1158;
 	METHOD method_3941 configure (Lnet/minecraft/class_1937;Lnet/minecraft/class_4184;Lnet/minecraft/class_1297;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 camera
 		ARG 3 targetedEntity
-	METHOD method_3944 setWorld (Lnet/minecraft/class_1937;)V
-		ARG 1 world
+	METHOD method_3944 setLevel (Lnet/minecraft/class_1937;)V
+		ARG 1 level
 	METHOD method_3948 setRenderShadows (Z)V
 		ARG 1 value
 	METHOD method_3949 getTextRenderer ()Lnet/minecraft/class_327;
