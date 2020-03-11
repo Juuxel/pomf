@@ -7,13 +7,13 @@ CLASS net/minecraft/class_3284 net/minecraft/world/gen/decorator/Decorator
 		ARG 1 decorator
 	METHOD method_14451 deserialize (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_2998;
 	METHOD method_14452 getPositions (Lnet/minecraft/class_1936;Lnet/minecraft/class_2794;Ljava/util/Random;Lnet/minecraft/class_2998;Lnet/minecraft/class_2338;)Ljava/util/stream/Stream;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 generator
 		ARG 3 random
 		ARG 4 config
 		ARG 5 pos
 	METHOD method_15927 generate (Lnet/minecraft/class_1936;Lnet/minecraft/class_2794;Ljava/util/Random;Lnet/minecraft/class_2338;Lnet/minecraft/class_2998;Lnet/minecraft/class_2975;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 generator
 		ARG 3 random
 		ARG 4 pos

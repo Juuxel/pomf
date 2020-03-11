@@ -18,4 +18,4 @@ CLASS net/minecraft/class_3803 net/minecraft/screen/GrindstoneScreenHandler
 		METHOD method_16696 getExperience (Lnet/minecraft/class_1799;)I
 			ARG 1 stack
 		METHOD method_17416 getExperience (Lnet/minecraft/class_1937;)I
-			ARG 1 world
+			ARG 1 level

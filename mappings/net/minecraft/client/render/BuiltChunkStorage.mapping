@@ -6,7 +6,7 @@ CLASS net/minecraft/class_769 net/minecraft/client/render/BuiltChunkStorage
 	FIELD field_4150 chunks [Lnet/minecraft/class_846$class_851;
 	FIELD field_4151 world Lnet/minecraft/class_1937;
 	METHOD <init> (Lnet/minecraft/class_846;Lnet/minecraft/class_1937;ILnet/minecraft/class_761;)V
-		ARG 2 world
+		ARG 2 level
 		ARG 3 viewDistance
 		ARG 4 worldRenderer
 	METHOD method_16040 scheduleRebuild (IIIZ)V

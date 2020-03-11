@@ -9,7 +9,7 @@ CLASS net/minecraft/class_1481 net/minecraft/entity/passive/TurtleEntity
 	FIELD field_6925 ACTIVELY_TRAVELLING Lnet/minecraft/class_2940;
 	METHOD method_20671 canSpawn (Lnet/minecraft/class_1299;Lnet/minecraft/class_1936;Lnet/minecraft/class_3730;Lnet/minecraft/class_2338;Ljava/util/Random;)Z
 		ARG 0 type
-		ARG 1 world
+		ARG 1 level
 		ARG 2 spawnType
 		ARG 3 pos
 		ARG 4 random
@@ -66,7 +66,7 @@ CLASS net/minecraft/class_1481 net/minecraft/entity/passive/TurtleEntity
 	CLASS class_1488 TurtleSwimNavigation
 		METHOD <init> (Lnet/minecraft/class_1481;Lnet/minecraft/class_1937;)V
 			ARG 1 owner
-			ARG 2 world
+			ARG 2 level
 	CLASS class_1489 WanderOnLandGoal
 		FIELD field_6934 turtle Lnet/minecraft/class_1481;
 		METHOD <init> (Lnet/minecraft/class_1481;DI)V

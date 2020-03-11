@@ -23,7 +23,7 @@ CLASS net/minecraft/class_2048 net/minecraft/predicate/entity/EntityPredicate
 		ARG 9 team
 		ARG 10 catType
 	METHOD method_8909 test (Lnet/minecraft/class_3218;Lnet/minecraft/class_243;Lnet/minecraft/class_1297;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 	METHOD method_8910 fromJsonArray (Lcom/google/gson/JsonElement;)[Lnet/minecraft/class_2048;
 		ARG 0 element

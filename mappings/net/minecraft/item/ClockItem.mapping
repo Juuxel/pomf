@@ -4,5 +4,5 @@ CLASS net/minecraft/class_1760 net/minecraft/item/ClockItem
 		FIELD field_7911 time D
 		FIELD field_7913 lastTick J
 		METHOD method_7736 getTime (Lnet/minecraft/class_1937;D)D
-			ARG 1 world
+			ARG 1 level
 			ARG 2 skyAngle

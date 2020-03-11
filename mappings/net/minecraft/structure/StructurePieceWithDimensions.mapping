@@ -13,5 +13,5 @@ CLASS net/minecraft/class_3418 net/minecraft/structure/StructurePieceWithDimensi
 		ARG 7 height
 		ARG 8 depth
 	METHOD method_14839 (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;I)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 boundingBox

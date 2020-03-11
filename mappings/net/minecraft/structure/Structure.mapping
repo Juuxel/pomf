@@ -7,12 +7,12 @@ CLASS net/minecraft/class_3499 net/minecraft/structure/Structure
 	METHOD method_15161 setAuthor (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD method_15164 addEntitiesFromWorld (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 firstCorner
 		ARG 3 secondCorner
 	METHOD method_15169 createIntListTag ([I)Lnet/minecraft/class_2499;
 	METHOD method_15174 saveFromWorld (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;ZLnet/minecraft/class_2248;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 start
 		ARG 3 size
 		ARG 4 includeEntities
@@ -28,7 +28,7 @@ CLASS net/minecraft/class_3499 net/minecraft/structure/Structure
 		ARG 1 placementData
 		ARG 2 pos
 	METHOD method_16446 process (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_3492;Ljava/util/List;)Ljava/util/List;
-		ARG 0 world
+		ARG 0 level
 		ARG 1 pos
 		ARG 2 placementData
 		ARG 3 blockInfos

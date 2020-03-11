@@ -66,6 +66,6 @@ CLASS net/minecraft/class_1661 net/minecraft/entity/player/PlayerInventory
 	METHOD method_7397 deserialize (Lnet/minecraft/class_2499;)V
 		ARG 1 tag
 	METHOD method_7398 offerOrDrop (Lnet/minecraft/class_1937;Lnet/minecraft/class_1799;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 stack
 	METHOD method_7399 getCursorStack ()Lnet/minecraft/class_1799;

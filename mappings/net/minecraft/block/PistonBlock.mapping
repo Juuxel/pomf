@@ -11,21 +11,21 @@ CLASS net/minecraft/class_2665 net/minecraft/block/PistonBlock
 		ARG 1 isSticky
 		ARG 2 settings
 	METHOD method_11481 move (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;Z)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 dir
 		ARG 4 retract
 	METHOD method_11482 shouldExtend (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 pistonFace
 	METHOD method_11483 tryMove (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 state
 	METHOD method_11484 isMovable (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;ZLnet/minecraft/class_2350;)Z
 		ARG 0 state
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 motionDir
 		ARG 4 canBreak

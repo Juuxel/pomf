@@ -26,10 +26,10 @@ CLASS net/minecraft/class_3765 net/minecraft/entity/raid/Raid
 	FIELD field_19172 preCalculatedRavagerSpawnLocation Ljava/util/Optional;
 	METHOD <init> (ILnet/minecraft/class_3218;Lnet/minecraft/class_2338;)V
 		ARG 1 id
-		ARG 2 world
+		ARG 2 level
 		ARG 3 pos
 	METHOD <init> (Lnet/minecraft/class_3218;Lnet/minecraft/class_2487;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 tag
 	METHOD method_16487 addToWave (ILnet/minecraft/class_3763;Z)Z
 		ARG 1 wave

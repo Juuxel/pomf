@@ -28,7 +28,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 1 source
 	METHOD method_24358 isFireproof ()Z
 	METHOD method_7836 use (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 user
 		ARG 3 hand
 	METHOD method_7837 getEnchantability ()I
@@ -36,17 +36,17 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 1 stack
 	METHOD method_7839 (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)F
 		ARG 0 stack
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 	METHOD method_7840 onStoppedUsing (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V
 		ARG 1 stack
-		ARG 2 world
+		ARG 2 level
 		ARG 3 user
 		ARG 4 remainingUseTicks
 	METHOD method_7841 getMaxDamage ()I
 	METHOD method_7843 onCraft (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;)V
 		ARG 1 stack
-		ARG 2 world
+		ARG 2 level
 		ARG 3 player
 	METHOD method_7844 getModifiers (Lnet/minecraft/class_1304;)Lcom/google/common/collect/Multimap;
 		ARG 1 slot
@@ -60,18 +60,18 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 	METHOD method_7848 getName ()Lnet/minecraft/class_2561;
 	METHOD method_7849 (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)F
 		ARG 0 stack
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 	METHOD method_7850 appendStacks (Lnet/minecraft/class_1761;Lnet/minecraft/class_2371;)V
 		ARG 1 group
 		ARG 2 stacks
 	METHOD method_7851 appendTooltip (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Ljava/util/List;Lnet/minecraft/class_1836;)V
 		ARG 1 stack
-		ARG 2 world
+		ARG 2 level
 		ARG 3 tooltip
 		ARG 4 context
 	METHOD method_7852 usageTick (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 user
 		ARG 3 stack
 		ARG 4 remainingUseTicks
@@ -89,7 +89,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 1 tag
 	METHOD method_7861 finishUsing (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;
 		ARG 1 stack
-		ARG 2 world
+		ARG 2 level
 		ARG 3 user
 	METHOD method_7862 getRarity (Lnet/minecraft/class_1799;)Lnet/minecraft/class_1814;
 		ARG 1 stack
@@ -112,10 +112,10 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 1 stack
 	METHOD method_7871 (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)F
 		ARG 0 stack
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 	METHOD method_7872 rayTrace (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_3959$class_242;)Lnet/minecraft/class_239;
-		ARG 0 world
+		ARG 0 level
 		ARG 1 player
 		ARG 2 fluidHandling
 	METHOD method_7873 postHit (Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)Z
@@ -124,7 +124,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 3 attacker
 	METHOD method_7874 (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)F
 		ARG 0 stack
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 	METHOD method_7875 byRawId (I)Lnet/minecraft/class_1792;
 		ARG 0 id
@@ -136,7 +136,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 2 ingredient
 	METHOD method_7879 postMine (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z
 		ARG 1 stack
-		ARG 2 world
+		ARG 2 level
 		ARG 3 state
 		ARG 4 pos
 		ARG 5 miner
@@ -147,13 +147,13 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 	METHOD method_7882 getMaxCount ()I
 	METHOD method_7883 (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)F
 		ARG 0 stack
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 	METHOD method_7884 useOnBlock (Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;
 		ARG 1 context
 	METHOD method_7885 canMine (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;)Z
 		ARG 1 state
-		ARG 2 world
+		ARG 2 level
 		ARG 3 pos
 		ARG 4 miner
 	METHOD method_7886 hasEnchantmentGlint (Lnet/minecraft/class_1799;)Z
@@ -161,7 +161,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 	METHOD method_7887 shouldSyncTagToClient ()Z
 	METHOD method_7888 inventoryTick (Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;IZ)V
 		ARG 1 stack
-		ARG 2 world
+		ARG 2 level
 		ARG 3 entity
 		ARG 4 slot
 		ARG 5 selected

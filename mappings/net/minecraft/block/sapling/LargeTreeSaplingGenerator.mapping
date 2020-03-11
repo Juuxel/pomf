@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_2650 net/minecraft/block/sapling/LargeTreeSaplingGenerator
 	METHOD method_11442 canGenerateLargeTree (Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;II)Z
 		ARG 0 state
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 x
 		ARG 4 z

@@ -11,7 +11,7 @@ CLASS net/minecraft/class_2022 net/minecraft/predicate/entity/DamageSourcePredic
 	FIELD field_9540 isFire Ljava/lang/Boolean;
 	FIELD field_9541 isMagic Ljava/lang/Boolean;
 	METHOD method_8845 test (Lnet/minecraft/class_3218;Lnet/minecraft/class_243;Lnet/minecraft/class_1282;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 	METHOD method_8846 deserialize (Lcom/google/gson/JsonElement;)Lnet/minecraft/class_2022;
 		ARG 0 element

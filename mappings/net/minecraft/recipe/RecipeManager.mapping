@@ -11,7 +11,7 @@ CLASS net/minecraft/class_1863 net/minecraft/recipe/RecipeManager
 	METHOD method_17877 getAllMatches (Lnet/minecraft/class_3956;Lnet/minecraft/class_1263;Lnet/minecraft/class_1937;)Ljava/util/List;
 		ARG 1 type
 		ARG 2 inventory
-		ARG 3 world
+		ARG 3 level
 	METHOD method_20702 setRecipes (Ljava/lang/Iterable;)V
 		ARG 1 recipes
 	METHOD method_8126 values ()Ljava/util/Collection;
@@ -22,4 +22,4 @@ CLASS net/minecraft/class_1863 net/minecraft/recipe/RecipeManager
 	METHOD method_8132 getFirstMatch (Lnet/minecraft/class_3956;Lnet/minecraft/class_1263;Lnet/minecraft/class_1937;)Ljava/util/Optional;
 		ARG 1 type
 		ARG 2 inventory
-		ARG 3 world
+		ARG 3 level

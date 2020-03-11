@@ -96,7 +96,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_17833 adjustSingleAxisMovementForCollisions (Lnet/minecraft/class_243;Lnet/minecraft/class_238;Lnet/minecraft/class_4538;Lnet/minecraft/class_3726;Lnet/minecraft/class_3538;)Lnet/minecraft/class_243;
 		ARG 0 movement
 		ARG 1 entityBoundingBox
-		ARG 2 world
+		ARG 2 level
 		ARG 3 context
 		ARG 4 collisions
 	METHOD method_17835 adjustMovementForCollisions (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
@@ -162,7 +162,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		ARG 0 entity
 		ARG 1 movement
 		ARG 2 entityBoundingBox
-		ARG 3 world
+		ARG 3 level
 		ARG 4 context
 		ARG 5 collisions
 	METHOD method_20737 adjustMovementForCollisions (Lnet/minecraft/class_243;Lnet/minecraft/class_238;Lnet/minecraft/class_3538;)Lnet/minecraft/class_243;
@@ -493,7 +493,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_5773 tick ()V
 	METHOD method_5774 getEffectiveExplosionResistance (Lnet/minecraft/class_1927;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;F)F
 		ARG 1 explosion
-		ARG 2 world
+		ARG 2 level
 		ARG 3 pos
 		ARG 4 blockState
 		ARG 5 fluidState
@@ -611,7 +611,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_5852 checkBlockCollision ()V
 	METHOD method_5853 canExplosionDestroyBlock (Lnet/minecraft/class_1927;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;F)Z
 		ARG 1 explosion
-		ARG 2 world
+		ARG 2 level
 		ARG 3 pos
 		ARG 4 state
 		ARG 5 explosionPower
@@ -637,7 +637,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_5865 updatePassengerPosition (Lnet/minecraft/class_1297;)V
 		ARG 1 passenger
 	METHOD method_5866 setWorld (Lnet/minecraft/class_1937;)V
-		ARG 1 world
+		ARG 1 level
 	METHOD method_5867 calculateNextStepSoundDistance ()F
 	METHOD method_5868 collectPassengers (ZLjava/util/Set;)V
 		ARG 1 playersOnly

@@ -11,5 +11,5 @@ CLASS net/minecraft/class_4551 net/minecraft/predicate/FluidPredicate
 	METHOD method_22474 fromJson (Lcom/google/gson/JsonElement;)Lnet/minecraft/class_4551;
 		ARG 0 json
 	METHOD method_22475 test (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos

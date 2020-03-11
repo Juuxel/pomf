@@ -12,7 +12,7 @@ CLASS net/minecraft/class_4515 net/minecraft/test/TestRunner
 	METHOD <init> (Ljava/util/Collection;Lnet/minecraft/class_2338;Lnet/minecraft/class_3218;Lnet/minecraft/class_4521;)V
 		ARG 1 batches
 		ARG 2 pos
-		ARG 3 world
+		ARG 3 level
 		ARG 4 testManager
 	METHOD method_22155 getTests ()Ljava/util/List;
 	METHOD method_22156 runBatch (I)V

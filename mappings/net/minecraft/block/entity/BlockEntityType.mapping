@@ -13,7 +13,7 @@ CLASS net/minecraft/class_2591 net/minecraft/block/entity/BlockEntityType
 	METHOD method_20526 supports (Lnet/minecraft/class_2248;)Z
 		ARG 1 block
 	METHOD method_24182 get (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2586;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 	CLASS class_2592 Builder
 		FIELD field_11915 supplier Ljava/util/function/Supplier;

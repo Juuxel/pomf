@@ -124,11 +124,11 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		ARG 1 camera
 	METHOD method_22990 getEntityOutlinesFramebuffer ()Lnet/minecraft/class_276;
 	METHOD method_23793 getLightmapCoordinates (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;)I
-		ARG 0 world
+		ARG 0 level
 		ARG 1 state
 		ARG 2 pos
 	METHOD method_23794 getLightmapCoordinates (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I
-		ARG 0 world
+		ARG 0 level
 		ARG 1 pos
 	METHOD method_3239 renderClouds (Lnet/minecraft/class_287;DDDLnet/minecraft/class_243;)V
 		ARG 1 builder
@@ -149,7 +149,7 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		ARG 2 added
 	METHOD method_3246 getCompletedChunkCount ()I
 	METHOD method_3247 updateEntitiesForSong (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Z)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 playing
 	METHOD method_3250 renderEndSky (Lnet/minecraft/class_4587;)V
@@ -279,7 +279,7 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		ARG 2 pos
 		ARG 3 stage
 	METHOD method_8570 updateBlock (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 oldState
 		ARG 4 newState

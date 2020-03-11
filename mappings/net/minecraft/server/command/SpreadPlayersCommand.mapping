@@ -21,13 +21,13 @@ CLASS net/minecraft/class_3131 net/minecraft/server/command/SpreadPlayersCommand
 		ARG 5 targets
 	METHOD method_13657 getMinimumDistance (Ljava/util/Collection;Lnet/minecraft/class_3218;[Lnet/minecraft/class_3131$class_3132;Z)D
 		ARG 0 entities
-		ARG 1 world
+		ARG 1 level
 		ARG 2 piles
 		ARG 3 betweenTeams
 	METHOD method_13661 spread (Lnet/minecraft/class_241;DLnet/minecraft/class_3218;Ljava/util/Random;DDDD[Lnet/minecraft/class_3131$class_3132;Z)V
 		ARG 0 center
 		ARG 1 spreadDistance
-		ARG 3 world
+		ARG 3 level
 		ARG 4 random
 		ARG 5 minX
 		ARG 7 minZ
@@ -39,7 +39,7 @@ CLASS net/minecraft/class_3131 net/minecraft/server/command/SpreadPlayersCommand
 		FIELD field_13736 z D
 		FIELD field_13737 x D
 		METHOD method_13662 isSafe (Lnet/minecraft/class_1922;)Z
-			ARG 1 world
+			ARG 1 level
 		METHOD method_13665 getDistance (Lnet/minecraft/class_3131$class_3132;)D
 			ARG 1 other
 		METHOD method_13666 clamp (DDDD)Z

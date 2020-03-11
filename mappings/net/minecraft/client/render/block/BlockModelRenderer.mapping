@@ -4,7 +4,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 	METHOD method_20544 enableBrightnessCache ()V
 	METHOD method_20545 disableBrightnessCache ()V
 	METHOD method_23073 renderQuad (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4588;Lnet/minecraft/class_4587$class_4665;Lnet/minecraft/class_777;FFFFIIIII)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 state
 		ARG 3 pos
 		ARG 4 vertexConsumer
@@ -20,7 +20,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 14 light3
 		ARG 15 overlay
 	METHOD method_3361 renderSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;JI)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 model
 		ARG 3 state
 		ARG 4 pos
@@ -31,7 +31,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 9 seed
 		ARG 11 overlay
 	METHOD method_3363 renderQuadsSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Ljava/util/List;[FLjava/util/BitSet;Lnet/minecraft/class_778$class_780;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 state
 		ARG 3 pos
 		ARG 4 matrix
@@ -42,7 +42,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 9 ambientOcclusionCalculator
 		ARG 10 overlay
 	METHOD method_3364 getQuadDimensions (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;[ILnet/minecraft/class_2350;[FLjava/util/BitSet;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 state
 		ARG 3 pos
 		ARG 4 vertexData
@@ -58,7 +58,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 9 quads
 		ARG 10 flags
 	METHOD method_3373 renderFlat (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;JI)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 model
 		ARG 3 state
 		ARG 4 pos
@@ -67,7 +67,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		ARG 7 cull
 		ARG 8 random
 	METHOD method_3374 render (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;JI)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 model
 		ARG 3 state
 		ARG 4 pos
@@ -86,7 +86,7 @@ CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRender
 		FIELD field_4196 brightness [F
 		METHOD method_3386 getAmbientOcclusionBrightness (IIII)I
 		METHOD method_3388 apply (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;[FLjava/util/BitSet;Z)V
-			ARG 1 world
+			ARG 1 level
 			ARG 2 state
 			ARG 3 pos
 			ARG 4 direction

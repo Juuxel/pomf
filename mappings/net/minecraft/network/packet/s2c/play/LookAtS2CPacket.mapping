@@ -16,4 +16,4 @@ CLASS net/minecraft/class_2707 net/minecraft/network/packet/s2c/play/LookAtS2CPa
 		ARG 3 targetAnchor
 	METHOD method_11730 getSelfAnchor ()Lnet/minecraft/class_2183$class_2184;
 	METHOD method_11732 getTargetPosition (Lnet/minecraft/class_1937;)Lnet/minecraft/class_243;
-		ARG 1 world
+		ARG 1 level

@@ -7,5 +7,5 @@ CLASS net/minecraft/class_1786 net/minecraft/item/FlintAndSteelItem
 		ARG 1 p
 	METHOD method_7825 canIgnite (Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)Z
 		ARG 0 block
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos

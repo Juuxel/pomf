@@ -19,7 +19,7 @@ CLASS net/minecraft/class_4466 net/minecraft/entity/passive/BeeEntity
 	METHOD method_21763 setBeeAttacker (Lnet/minecraft/class_1297;)Z
 		ARG 1 attacker
 	METHOD method_21769 addParticle (Lnet/minecraft/class_1937;DDDDDLnet/minecraft/class_2394;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 lastX
 		ARG 4 x
 		ARG 6 lastZ

@@ -16,7 +16,7 @@ CLASS net/minecraft/class_1688 net/minecraft/entity/vehicle/AbstractMinecartEnti
 	FIELD field_7671 CUSTOM_BLOCK_ID Lnet/minecraft/class_2940;
 	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;DDD)V
 		ARG 1 type
-		ARG 2 world
+		ARG 2 level
 		ARG 3 x
 		ARG 5 y
 		ARG 7 z
@@ -48,7 +48,7 @@ CLASS net/minecraft/class_1688 net/minecraft/entity/vehicle/AbstractMinecartEnti
 	METHOD method_7521 getDamageWobbleStrength ()F
 	METHOD method_7522 getDamageWobbleSide ()I
 	METHOD method_7523 create (Lnet/minecraft/class_1937;DDDLnet/minecraft/class_1688$class_1689;)Lnet/minecraft/class_1688;
-		ARG 0 world
+		ARG 0 level
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z

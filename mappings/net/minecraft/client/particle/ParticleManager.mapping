@@ -10,7 +10,7 @@ CLASS net/minecraft/class_702 net/minecraft/client/particle/ParticleManager
 	FIELD field_3836 newParticles Ljava/util/Queue;
 	FIELD field_3837 newEmitterParticles Ljava/util/Queue;
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_1060;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 textureManager
 	METHOD method_18829 clearAtlas ()V
 	METHOD method_18834 registerFactory (Lnet/minecraft/class_2396;Lnet/minecraft/class_702$class_4091;)V

@@ -21,7 +21,7 @@ CLASS net/minecraft/class_2111 net/minecraft/advancement/criterion/PlacedBlockCr
 		METHOD method_9094 matches (Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_3218;Lnet/minecraft/class_1799;)Z
 			ARG 1 state
 			ARG 2 pos
-			ARG 3 world
+			ARG 3 level
 			ARG 4 stack
 		METHOD method_9095 block (Lnet/minecraft/class_2248;)Lnet/minecraft/class_2111$class_2113;
 			ARG 0 block

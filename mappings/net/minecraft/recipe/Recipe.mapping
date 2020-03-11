@@ -10,7 +10,7 @@ CLASS net/minecraft/class_1860 net/minecraft/recipe/Recipe
 	METHOD method_8114 getId ()Lnet/minecraft/class_2960;
 	METHOD method_8115 matches (Lnet/minecraft/class_1263;Lnet/minecraft/class_1937;)Z
 		ARG 1 inv
-		ARG 2 world
+		ARG 2 level
 	METHOD method_8116 craft (Lnet/minecraft/class_1263;)Lnet/minecraft/class_1799;
 		ARG 1 inv
 	METHOD method_8117 getPreviewInputs ()Lnet/minecraft/class_2371;

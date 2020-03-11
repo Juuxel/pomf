@@ -12,7 +12,7 @@ CLASS net/minecraft/class_4622 net/minecraft/block/HoneyBlock
 		ARG 1 entity
 		ARG 2 pos
 	METHOD method_24177 addCollisionEffects (Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 	METHOD method_24178 addRichParticles (Lnet/minecraft/class_1297;)V
 		ARG 0 entity

@@ -17,9 +17,9 @@ CLASS net/minecraft/class_2538 net/minecraft/block/TripwireBlock
 		ARG 1 state
 		ARG 2 facing
 	METHOD method_10779 update (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 state
 	METHOD method_10780 updatePowered (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos

@@ -9,7 +9,7 @@ CLASS net/minecraft/class_1838 net/minecraft/item/ItemUsageContext
 		ARG 2 hand
 		ARG 3 hit
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;Lnet/minecraft/class_3965;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 player
 		ARG 3 hand
 		ARG 4 stack

@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_1948 net/minecraft/world/SpawnHelper
 	FIELD field_9292 LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD method_8657 getSpawnPos (Lnet/minecraft/class_1937;Lnet/minecraft/class_2818;)Lnet/minecraft/class_2338;
-		ARG 0 world
+		ARG 0 level
 		ARG 1 chunk
 	METHOD method_8658 getEntitySpawnPos (Lnet/minecraft/class_4538;Lnet/minecraft/class_1299;II)Lnet/minecraft/class_2338;
 		ARG 1 entityType
@@ -15,7 +15,7 @@ CLASS net/minecraft/class_1948 net/minecraft/world/SpawnHelper
 		ARG 2 pos
 		ARG 3 entityType
 	METHOD method_8661 populateEntities (Lnet/minecraft/class_1936;Lnet/minecraft/class_1959;IILjava/util/Random;)V
-		ARG 0 world
+		ARG 0 level
 		ARG 2 chunkX
 		ARG 3 chunkZ
 	METHOD method_8662 isClearForSpawn (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;)Z

@@ -236,7 +236,7 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_3827 getVersion ()Ljava/lang/String;
 	METHOD method_3828 isOnlineMode ()Z
 	METHOD method_3829 getSpawnRadius (Lnet/minecraft/class_3218;)I
-		ARG 1 world
+		ARG 1 level
 	METHOD method_3830 getTickTime ()F
 	METHOD method_3831 getRunDirectory ()Ljava/io/File;
 	METHOD method_3832 enableProfiler ()V

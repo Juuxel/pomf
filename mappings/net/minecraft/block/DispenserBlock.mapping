@@ -10,5 +10,5 @@ CLASS net/minecraft/class_2315 net/minecraft/block/DispenserBlock
 	METHOD method_10011 getBehaviorForItem (Lnet/minecraft/class_1799;)Lnet/minecraft/class_2357;
 		ARG 1 stack
 	METHOD method_10012 dispense (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos

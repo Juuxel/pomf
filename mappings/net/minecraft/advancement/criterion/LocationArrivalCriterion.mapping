@@ -12,7 +12,7 @@ CLASS net/minecraft/class_2092 net/minecraft/advancement/criterion/LocationArriv
 		METHOD method_20400 createHeroOfTheVillage ()Lnet/minecraft/class_2092$class_2094;
 		METHOD method_9032 createSleptInBed ()Lnet/minecraft/class_2092$class_2094;
 		METHOD method_9033 matches (Lnet/minecraft/class_3218;DDD)Z
-			ARG 1 world
+			ARG 1 level
 			ARG 2 x
 			ARG 4 y
 			ARG 6 z

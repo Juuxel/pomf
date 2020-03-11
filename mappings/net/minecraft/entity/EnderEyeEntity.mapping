@@ -6,7 +6,7 @@ CLASS net/minecraft/class_1672 net/minecraft/entity/EnderEyeEntity
 	FIELD field_7620 useCount I
 	FIELD field_7621 dropsItem Z
 	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z

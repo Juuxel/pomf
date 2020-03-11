@@ -12,7 +12,7 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBuilder
 	FIELD field_4443 uploadQueue Ljava/util/Queue;
 	FIELD field_4445 LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_761;Ljava/util/concurrent/Executor;ZLnet/minecraft/class_750;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 worldRenderer
 		ARG 3 executor
 		ARG 4 is64Bits
@@ -21,7 +21,7 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBuilder
 		ARG 1 cameraPosition
 	METHOD method_19420 getCameraPosition ()Lnet/minecraft/class_243;
 	METHOD method_22752 setWorld (Lnet/minecraft/class_1937;)V
-		ARG 1 world
+		ARG 1 level
 	METHOD method_22756 send (Lnet/minecraft/class_846$class_851$class_4577;)V
 		ARG 1 task
 	METHOD method_22759 upload (Lnet/minecraft/class_287;Lnet/minecraft/class_291;)Ljava/util/concurrent/CompletableFuture;

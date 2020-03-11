@@ -12,7 +12,7 @@ CLASS net/minecraft/class_4517 net/minecraft/test/GameTest
 	METHOD <init> (Lnet/minecraft/class_4529;Lnet/minecraft/class_2338;Lnet/minecraft/class_3218;)V
 		ARG 1 testFunction
 		ARG 2 pos
-		ARG 3 world
+		ARG 3 level
 	METHOD method_22165 tick ()V
 	METHOD method_22166 init (I)V
 	METHOD method_22167 addListener (Lnet/minecraft/class_4518;)V

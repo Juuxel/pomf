@@ -6,4 +6,4 @@ CLASS net/minecraft/class_4453 com/mojang/realmsclient/util/UploadTokenCache
 		ARG 0 wid
 		ARG 2 token
 	METHOD method_21587 invalidate (J)V
-		ARG 0 world
+		ARG 0 level

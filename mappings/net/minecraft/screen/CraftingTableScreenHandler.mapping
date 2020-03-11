@@ -9,7 +9,7 @@ CLASS net/minecraft/class_1714 net/minecraft/screen/CraftingTableScreenHandler
 		ARG 1 syncId
 	METHOD method_17399 updateResult (ILnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1715;Lnet/minecraft/class_1731;)V
 		ARG 0 syncId
-		ARG 1 world
+		ARG 1 level
 		ARG 2 player
 		ARG 3 craftingInventory
 		ARG 4 resultInventory

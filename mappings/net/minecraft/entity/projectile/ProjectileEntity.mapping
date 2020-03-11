@@ -19,11 +19,11 @@ CLASS net/minecraft/class_1665 net/minecraft/entity/projectile/ProjectileEntity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-		ARG 8 world
+		ARG 8 level
 	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1309;Lnet/minecraft/class_1937;)V
 		ARG 1 type
 		ARG 2 owner
-		ARG 3 world
+		ARG 3 level
 	METHOD method_20011 getSound ()Lnet/minecraft/class_3414;
 	METHOD method_7433 setNoClip (Z)V
 		ARG 1 noClip

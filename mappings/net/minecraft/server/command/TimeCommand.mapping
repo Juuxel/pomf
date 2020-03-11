@@ -5,7 +5,7 @@ CLASS net/minecraft/class_3149 net/minecraft/server/command/TimeCommand
 	METHOD method_13786 register (Lcom/mojang/brigadier/CommandDispatcher;)V
 		ARG 0 dispatcher
 	METHOD method_13787 getDayTime (Lnet/minecraft/class_3218;)I
-		ARG 0 world
+		ARG 0 level
 	METHOD method_13788 executeAdd (Lnet/minecraft/class_2168;I)I
 		ARG 0 source
 		ARG 1 time

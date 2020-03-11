@@ -7,7 +7,7 @@ CLASS net/minecraft/class_2912 net/minecraft/world/gen/chunk/OverworldChunkGener
 	FIELD field_19181 catSpawner Lnet/minecraft/class_4274;
 	FIELD field_19430 zombieSiegeManager Lnet/minecraft/class_1419;
 	METHOD <init> (Lnet/minecraft/class_1936;Lnet/minecraft/class_1966;Lnet/minecraft/class_2906;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 biomeSource
 		ARG 3 config
 	METHOD method_16414 sampleNoise (II)D

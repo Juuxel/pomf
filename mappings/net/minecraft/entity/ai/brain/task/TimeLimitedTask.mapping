@@ -12,4 +12,4 @@ CLASS net/minecraft/class_4821 net/minecraft/entity/ai/brain/task/TimeLimitedTas
 		ARG 2 skipFirstRun
 		ARG 3 timeRange
 	METHOD method_24598 resetTimeLeft (Lnet/minecraft/class_3218;)V
-		ARG 1 world
+		ARG 1 level

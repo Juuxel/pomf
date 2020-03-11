@@ -29,14 +29,14 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 	METHOD method_21833 getEatSound ()Lnet/minecraft/class_3414;
 	METHOD method_7909 getItem ()Lnet/minecraft/class_1792;
 	METHOD method_7910 finishUsing (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 user
 	METHOD method_7911 getOrCreateSubTag (Ljava/lang/String;)Lnet/minecraft/class_2487;
 		ARG 1 key
 	METHOD method_7912 setCooldown (I)V
 		ARG 1 cooldown
 	METHOD method_7913 use (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 user
 		ARG 3 hand
 	METHOD method_7914 getMaxCount ()I
@@ -47,7 +47,7 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 		ARG 2 modifier
 		ARG 3 slot
 	METHOD method_7917 inventoryTick (Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;IZ)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 entity
 		ARG 3 slot
 		ARG 4 selected
@@ -73,7 +73,7 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 	METHOD method_7929 isItemEqual (Lnet/minecraft/class_1799;)Z
 		ARG 1 stack
 	METHOD method_7930 onStoppedUsing (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 user
 		ARG 3 remainingUseTicks
 	METHOD method_7931 createModifierFormat ()Ljava/text/DecimalFormat;
@@ -105,7 +105,7 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 	METHOD method_7947 getCount ()I
 	METHOD method_7948 getOrCreateTag ()Lnet/minecraft/class_2487;
 	METHOD method_7949 usageTick (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 user
 		ARG 3 remainingUseTicks
 	METHOD method_7950 getTooltip (Lnet/minecraft/class_1657;Lnet/minecraft/class_1836;)Ljava/util/List;
@@ -114,7 +114,7 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 	METHOD method_7951 isEffectiveOn (Lnet/minecraft/class_2680;)Z
 		ARG 1 state
 	METHOD method_7952 postMine (Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 state
 		ARG 3 pos
 		ARG 4 miner
@@ -174,7 +174,7 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 	METHOD method_7981 useOnBlock (Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;
 		ARG 1 context
 	METHOD method_7982 onCraft (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 player
 		ARG 3 amount
 	METHOD method_7983 removeSubTag (Ljava/lang/String;)V

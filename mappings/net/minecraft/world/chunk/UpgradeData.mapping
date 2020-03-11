@@ -15,7 +15,7 @@ CLASS net/minecraft/class_2843 net/minecraft/world/chunk/UpgradeData
 	METHOD method_12351 applyAdjacentBlock (Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;
 		ARG 0 oldState
 		ARG 1 dir
-		ARG 2 world
+		ARG 2 level
 		ARG 3 currentPos
 		ARG 4 otherPos
 	METHOD method_12352 upgradeSide (Lnet/minecraft/class_2818;Lnet/minecraft/class_2355;)V
@@ -25,7 +25,7 @@ CLASS net/minecraft/class_2843 net/minecraft/world/chunk/UpgradeData
 		ARG 1 chunk
 	CLASS class_2844 Logic
 		METHOD method_12357 postUpdate (Lnet/minecraft/class_1936;)V
-			ARG 1 world
+			ARG 1 level
 		METHOD method_12358 getUpdatedState (Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;
 	CLASS class_2845 BulitinLogic
 		FIELD field_12959 DIRECTIONS [Lnet/minecraft/class_2350;

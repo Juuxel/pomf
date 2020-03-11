@@ -18,7 +18,7 @@ CLASS net/minecraft/class_8 net/minecraft/entity/ai/pathing/PathNodeMaker
 		ARG 3 y
 		ARG 5 z
 	METHOD method_17 getNodeType (Lnet/minecraft/class_1922;IIILnet/minecraft/class_1308;IIIZZ)Lnet/minecraft/class_7;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
@@ -39,7 +39,7 @@ CLASS net/minecraft/class_8 net/minecraft/entity/ai/pathing/PathNodeMaker
 	METHOD method_23 canEnterOpenDoors ()Z
 	METHOD method_24 canOpenDoors ()Z
 	METHOD method_25 getNodeType (Lnet/minecraft/class_1922;III)Lnet/minecraft/class_7;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z

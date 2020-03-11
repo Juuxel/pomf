@@ -7,7 +7,7 @@ CLASS net/minecraft/class_1693 net/minecraft/entity/vehicle/StorageMinecartEntit
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-		ARG 8 world
+		ARG 8 level
 	METHOD method_17357 getScreenHandler (ILnet/minecraft/class_1661;)Lnet/minecraft/class_1703;
 		ARG 1 syncId
 		ARG 2 playerInventory

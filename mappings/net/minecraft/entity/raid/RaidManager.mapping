@@ -4,9 +4,9 @@ CLASS net/minecraft/class_3767 net/minecraft/entity/raid/RaidManager
 	FIELD field_16639 raids Ljava/util/Map;
 	FIELD field_16641 world Lnet/minecraft/class_3218;
 	METHOD <init> (Lnet/minecraft/class_3218;)V
-		ARG 1 world
+		ARG 1 level
 	METHOD method_16532 getOrCreateRaid (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)Lnet/minecraft/class_3765;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 	METHOD method_16533 nameFor (Lnet/minecraft/class_2869;)Ljava/lang/String;
 		ARG 0 dimension

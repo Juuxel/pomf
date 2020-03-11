@@ -13,7 +13,7 @@ CLASS net/minecraft/class_4550 net/minecraft/predicate/BlockPredicate
 	METHOD method_22453 fromJson (Lcom/google/gson/JsonElement;)Lnet/minecraft/class_4550;
 		ARG 0 json
 	METHOD method_22454 test (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 	CLASS class_4710 Builder
 		FIELD field_21572 block Lnet/minecraft/class_2248;

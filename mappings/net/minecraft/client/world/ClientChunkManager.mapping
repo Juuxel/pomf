@@ -5,7 +5,7 @@ CLASS net/minecraft/class_631 net/minecraft/client/world/ClientChunkManager
 	FIELD field_3677 lightingProvider Lnet/minecraft/class_3568;
 	FIELD field_3679 LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Lnet/minecraft/class_638;I)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 loadDistance
 	METHOD method_16020 loadChunkFromPacket (IILnet/minecraft/class_4548;Lnet/minecraft/class_2540;Lnet/minecraft/class_2487;I)Lnet/minecraft/class_2818;
 	METHOD method_20180 updateLoadDistance (I)V

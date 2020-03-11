@@ -14,7 +14,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 1 type
 		ARG 2 tag
 	METHOD method_14915 addChest (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;Ljava/util/Random;IIILnet/minecraft/class_2960;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 boundingBox
 		ARG 3 random
 		ARG 4 x
@@ -22,14 +22,14 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 6 z
 		ARG 7 lootTableId
 	METHOD method_14917 addBlock (Lnet/minecraft/class_1936;Lnet/minecraft/class_2680;IIILnet/minecraft/class_3341;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 block
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
 	METHOD method_14918 placeJigsaw (Lnet/minecraft/class_3443;Ljava/util/List;Ljava/util/Random;)V
 	METHOD method_14919 (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;IIIIIILnet/minecraft/class_2680;Z)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 bounds
 		ARG 3 minX
 		ARG 4 minY
@@ -39,7 +39,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 8 maxZ
 		ARG 9 block
 	METHOD method_14921 addChest (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;Ljava/util/Random;Lnet/minecraft/class_2338;Lnet/minecraft/class_2960;Lnet/minecraft/class_2680;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 boundingBox
 		ARG 3 random
 		ARG 4 pos
@@ -59,7 +59,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 3 y
 		ARG 4 z
 	METHOD method_14930 addDispenser (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;Ljava/util/Random;IIILnet/minecraft/class_2350;Lnet/minecraft/class_2960;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 boundingBox
 		ARG 3 random
 		ARG 4 x
@@ -68,7 +68,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 7 facing
 		ARG 8 lootTbaleId
 	METHOD method_14931 generate (Lnet/minecraft/class_1936;Lnet/minecraft/class_2794;Ljava/util/Random;Lnet/minecraft/class_3341;Lnet/minecraft/class_1923;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 generator
 		ARG 3 random
 		ARG 4 box
@@ -79,7 +79,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 	METHOD method_14934 getFacing ()Lnet/minecraft/class_2350;
 	METHOD method_14935 getBoundingBox ()Lnet/minecraft/class_3341;
 	METHOD method_14936 (Lnet/minecraft/class_1936;Lnet/minecraft/class_2680;IIILnet/minecraft/class_3341;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
@@ -97,11 +97,11 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 3 z
 		ARG 4 y
 	METHOD method_14940 fillWithOutline (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;IIIIIILnet/minecraft/class_2680;Lnet/minecraft/class_2680;Z)V
-		ARG 1 world
+		ARG 1 level
 		ARG 10 inside
 	METHOD method_14941 applyZTransform (II)I
 	METHOD method_14942 fill (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;IIIIII)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 bounds
 		ARG 3 minX
 		ARG 4 minY
@@ -111,7 +111,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 	METHOD method_14943 toNbt (Lnet/minecraft/class_2487;)V
 		ARG 1 tag
 	METHOD method_14945 addBlockWithRandomThreshold (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;Ljava/util/Random;FIIILnet/minecraft/class_2680;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 bounds
 		ARG 3 random
 		ARG 4 threshold

@@ -4,12 +4,12 @@ CLASS net/minecraft/class_1685 net/minecraft/entity/projectile/TridentEntity
 	FIELD field_7649 returnTimer I
 	FIELD field_7650 tridentStack Lnet/minecraft/class_1799;
 	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 owner
 		ARG 3 item
 	METHOD method_7493 isOwnerAlive ()Z

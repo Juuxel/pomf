@@ -47,7 +47,7 @@ CLASS net/minecraft/class_3193 net/minecraft/server/world/ChunkHolder
 	METHOD method_14008 getLevelType (I)Lnet/minecraft/class_3193$class_3194;
 		ARG 0 distance
 	METHOD method_14009 sendBlockEntityUpdatePacket (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 	METHOD method_14010 getCompletedChunk ()Lnet/minecraft/class_2791;
 	METHOD method_14011 getTargetGenerationStatus (I)Lnet/minecraft/class_2806;

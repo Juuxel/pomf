@@ -4,16 +4,16 @@ CLASS net/minecraft/class_2794 net/minecraft/world/gen/chunk/ChunkGenerator
 	FIELD field_12761 biomeSource Lnet/minecraft/class_1966;
 	FIELD field_16567 config Lnet/minecraft/class_2888;
 	METHOD <init> (Lnet/minecraft/class_1936;Lnet/minecraft/class_1966;Lnet/minecraft/class_2888;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 biomeSource
 		ARG 3 config
 	METHOD method_12088 populateNoise (Lnet/minecraft/class_1936;Lnet/minecraft/class_2791;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 chunk
 	METHOD method_12097 hasStructure (Lnet/minecraft/class_1959;Lnet/minecraft/class_3195;)Z
 	METHOD method_12098 getBiomeSource ()Lnet/minecraft/class_1966;
 	METHOD method_12099 spawnEntities (Lnet/minecraft/class_3218;ZZ)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 spawnMonsters
 		ARG 3 spawnAnimals
 	METHOD method_12100 getSpawnHeight ()I
@@ -21,7 +21,7 @@ CLASS net/minecraft/class_2794 net/minecraft/world/gen/chunk/ChunkGenerator
 	METHOD method_12102 generateFeatures (Lnet/minecraft/class_3233;)V
 		ARG 1 region
 	METHOD method_12103 locateStructure (Lnet/minecraft/class_1937;Ljava/lang/String;Lnet/minecraft/class_2338;IZ)Lnet/minecraft/class_2338;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 id
 		ARG 3 center
 		ARG 4 radius
@@ -40,7 +40,7 @@ CLASS net/minecraft/class_2794 net/minecraft/world/gen/chunk/ChunkGenerator
 		ARG 2 pos
 	METHOD method_16129 setStructureStarts (Lnet/minecraft/class_4543;Lnet/minecraft/class_2791;Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;)V
 	METHOD method_16130 addStructureReferences (Lnet/minecraft/class_1936;Lnet/minecraft/class_2791;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 2 chunk
 	METHOD method_16397 getHeightOnGround (IILnet/minecraft/class_2902$class_2903;)I
 		ARG 1 x

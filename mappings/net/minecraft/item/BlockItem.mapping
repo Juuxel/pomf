@@ -13,7 +13,7 @@ CLASS net/minecraft/class_1747 net/minecraft/item/BlockItem
 		ARG 2 name
 	METHOD method_18084 placeFromTag (Lnet/minecraft/class_2338;Lnet/minecraft/class_1937;Lnet/minecraft/class_1799;Lnet/minecraft/class_2680;)Lnet/minecraft/class_2680;
 		ARG 1 pos
-		ARG 2 world
+		ARG 2 level
 		ARG 3 stack
 		ARG 4 state
 	METHOD method_19260 getPlaceSound (Lnet/minecraft/class_2680;)Lnet/minecraft/class_3414;
@@ -29,7 +29,7 @@ CLASS net/minecraft/class_1747 net/minecraft/item/BlockItem
 		ARG 2 state
 	METHOD method_7710 postPlacement (Lnet/minecraft/class_2338;Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;Lnet/minecraft/class_2680;)Z
 		ARG 1 pos
-		ARG 2 world
+		ARG 2 level
 		ARG 3 player
 		ARG 4 stack
 		ARG 5 state
@@ -40,7 +40,7 @@ CLASS net/minecraft/class_1747 net/minecraft/item/BlockItem
 		ARG 1 map
 		ARG 2 item
 	METHOD method_7714 writeTagToBlockEntity (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)Z
-		ARG 0 world
+		ARG 0 level
 		ARG 1 player
 		ARG 2 pos
 		ARG 3 stack

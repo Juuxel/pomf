@@ -7,7 +7,7 @@ CLASS net/minecraft/class_776 net/minecraft/client/render/block/BlockRenderManag
 	METHOD method_23071 renderDamage (Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1920;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;)V
 		ARG 1 state
 		ARG 2 pos
-		ARG 3 world
+		ARG 3 level
 		ARG 4 matrix
 		ARG 5 vertexConsumer
 	METHOD method_3349 getModel (Lnet/minecraft/class_2680;)Lnet/minecraft/class_1087;
@@ -23,7 +23,7 @@ CLASS net/minecraft/class_776 net/minecraft/client/render/block/BlockRenderManag
 	METHOD method_3355 renderBlock (Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1920;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;)Z
 		ARG 1 state
 		ARG 2 pos
-		ARG 3 world
+		ARG 3 level
 		ARG 4 matrix
 		ARG 5 vertexConsumer
 		ARG 6 cull

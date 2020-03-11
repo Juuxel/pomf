@@ -6,7 +6,7 @@ CLASS net/minecraft/class_14 net/minecraft/entity/ai/pathing/LandPathNodeMaker
 		ARG 3 successor2
 		ARG 4 diagonalSuccessor
 	METHOD method_23476 getPathNodeType (Lnet/minecraft/class_1922;III)Lnet/minecraft/class_7;
-		ARG 0 world
+		ARG 0 level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -16,10 +16,10 @@ CLASS net/minecraft/class_14 net/minecraft/entity/ai/pathing/LandPathNodeMaker
 		ARG 3 y
 	METHOD method_58 getBasicPathNodeType (Lnet/minecraft/class_1922;III)Lnet/minecraft/class_7;
 	METHOD method_60 getHeight (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)D
-		ARG 0 world
+		ARG 0 level
 		ARG 1 pos
 	METHOD method_61 adjustNodeType (Lnet/minecraft/class_1922;ZZLnet/minecraft/class_2338;Lnet/minecraft/class_7;)Lnet/minecraft/class_7;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 canOpenDoors
 		ARG 3 canEnterOpenDoors
 		ARG 4 pos
@@ -34,7 +34,7 @@ CLASS net/minecraft/class_14 net/minecraft/entity/ai/pathing/LandPathNodeMaker
 	METHOD method_63 getNodeType (Lnet/minecraft/class_1308;Lnet/minecraft/class_2338;)Lnet/minecraft/class_7;
 		ARG 1 entity
 	METHOD method_64 getNodeType (Lnet/minecraft/class_1922;IIIIIIZZLjava/util/EnumSet;Lnet/minecraft/class_7;Lnet/minecraft/class_2338;)Lnet/minecraft/class_7;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
