@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_4626 net/minecraft/world/gen/feature/BranchedTreeFeature
 	METHOD method_23378 findPositionToGenerate (Lnet/minecraft/class_3747;IIILnet/minecraft/class_2338;Lnet/minecraft/class_4640;)Ljava/util/Optional;
-		ARG 1 world
+		ARG 1 level
 		ARG 2 baseHeight
 		ARG 3 trunkHeight
 		ARG 4 foliageRadius

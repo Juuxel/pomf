@@ -9,7 +9,7 @@ CLASS net/minecraft/class_3096 net/minecraft/world/gen/feature/MegaTreeFeature
 		ARG 1 level
 		ARG 2 pos
 	METHOD method_13526 makeRoundLeafLayer (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_2338;ILjava/util/Set;Lnet/minecraft/class_3341;Lnet/minecraft/class_4643;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 3 pos
 		ARG 4 radius
 		ARG 5 leaves
@@ -20,14 +20,14 @@ CLASS net/minecraft/class_3096 net/minecraft/world/gen/feature/MegaTreeFeature
 		ARG 2 pos
 		ARG 3 height
 	METHOD method_13528 makeSquaredLeafLayer (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_2338;ILjava/util/Set;Lnet/minecraft/class_3341;Lnet/minecraft/class_4643;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 3 pos
 		ARG 4 radius
 		ARG 5 leaves
 		ARG 6 box
 		ARG 7 config
 	METHOD method_23400 generateTrunk (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_2338;ILjava/util/Set;Lnet/minecraft/class_3341;Lnet/minecraft/class_4636;)V
-		ARG 1 world
+		ARG 1 level
 		ARG 3 pos
 		ARG 4 height
 		ARG 5 logs

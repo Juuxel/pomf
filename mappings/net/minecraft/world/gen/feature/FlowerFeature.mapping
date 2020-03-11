@@ -3,7 +3,7 @@ CLASS net/minecraft/class_4624 net/minecraft/world/gen/feature/FlowerFeature
 		ARG 2 pos
 		ARG 3 config
 	METHOD method_23369 isPosValid (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_3037;)Z
-		ARG 1 world
+		ARG 1 level
 		ARG 2 pos
 		ARG 3 config
 	METHOD method_23370 getFlowerAmount (Lnet/minecraft/class_3037;)I
