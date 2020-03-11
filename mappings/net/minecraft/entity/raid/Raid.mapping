@@ -9,7 +9,7 @@ CLASS net/minecraft/class_3765 net/minecraft/entity/raid/Raid
 	FIELD field_16615 waveToCaptain Ljava/util/Map;
 	FIELD field_16616 postRaidTicks I
 	FIELD field_16618 waveToRaiders Ljava/util/Map;
-	FIELD field_16619 world Lnet/minecraft/class_3218;
+	FIELD field_16619 level Lnet/minecraft/class_3218;
 	FIELD field_16620 totalHealth F
 	FIELD field_16621 wavesSpawned I
 	FIELD field_16623 badOmenLevel I

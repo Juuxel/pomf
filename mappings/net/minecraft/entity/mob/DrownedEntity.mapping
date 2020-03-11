@@ -29,7 +29,7 @@ CLASS net/minecraft/class_1551 net/minecraft/entity/mob/DrownedEntity
 		FIELD field_7238 z D
 		FIELD field_7239 y D
 		FIELD field_7240 x D
-		FIELD field_7241 world Lnet/minecraft/class_1937;
+		FIELD field_7241 level Lnet/minecraft/class_1937;
 		FIELD field_7242 mob Lnet/minecraft/class_1314;
 		FIELD field_7243 speed D
 		METHOD <init> (Lnet/minecraft/class_1314;D)V

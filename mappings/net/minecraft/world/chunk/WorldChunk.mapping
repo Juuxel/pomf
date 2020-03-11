@@ -21,7 +21,7 @@ CLASS net/minecraft/class_2818 net/minecraft/world/chunk/WorldChunk
 	FIELD field_12855 loadedToWorld Z
 	FIELD field_12856 levelTypeProvider Ljava/util/function/Supplier;
 	FIELD field_12857 fluidTickScheduler Lnet/minecraft/class_1951;
-	FIELD field_12858 world Lnet/minecraft/class_1937;
+	FIELD field_12858 level Lnet/minecraft/class_1937;
 	FIELD field_20655 biomeArray Lnet/minecraft/class_4548;
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_1923;Lnet/minecraft/class_4548;Lnet/minecraft/class_2843;Lnet/minecraft/class_1951;Lnet/minecraft/class_1951;J[Lnet/minecraft/class_2826;Ljava/util/function/Consumer;)V
 		ARG 5 blockTickScheduler

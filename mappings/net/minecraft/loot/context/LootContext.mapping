@@ -6,7 +6,7 @@ CLASS net/minecraft/class_47 net/minecraft/loot/context/LootContext
 	FIELD field_925 parameters Ljava/util/Map;
 	FIELD field_926 luck F
 	FIELD field_927 suppliers Ljava/util/Set;
-	FIELD field_928 world Lnet/minecraft/class_3218;
+	FIELD field_928 level Lnet/minecraft/class_3218;
 	FIELD field_929 drops Ljava/util/Map;
 	METHOD method_22555 addCondition (Lnet/minecraft/class_4570;)Z
 		ARG 1 condition
@@ -31,7 +31,7 @@ CLASS net/minecraft/class_47 net/minecraft/loot/context/LootContext
 		ARG 1 parameter
 	METHOD method_302 getLuck ()F
 	CLASS class_48 Builder
-		FIELD field_930 world Lnet/minecraft/class_3218;
+		FIELD field_930 level Lnet/minecraft/class_3218;
 		FIELD field_931 luck F
 		FIELD field_932 parameters Ljava/util/Map;
 		FIELD field_933 drops Ljava/util/Map;

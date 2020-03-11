@@ -3,7 +3,7 @@ CLASS net/minecraft/class_1838 net/minecraft/item/ItemUsageContext
 	FIELD field_19176 hand Lnet/minecraft/class_1268;
 	FIELD field_8941 stack Lnet/minecraft/class_1799;
 	FIELD field_8942 player Lnet/minecraft/class_1657;
-	FIELD field_8945 world Lnet/minecraft/class_1937;
+	FIELD field_8945 level Lnet/minecraft/class_1937;
 	METHOD <init> (Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)V
 		ARG 1 player
 		ARG 2 hand

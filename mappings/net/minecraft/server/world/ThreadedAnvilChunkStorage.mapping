@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_3898 net/minecraft/server/world/ThreadedAnvilChunkStorage
 	FIELD field_17212 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_17213 currentChunkHolders Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
-	FIELD field_17214 world Lnet/minecraft/class_3218;
+	FIELD field_17214 level Lnet/minecraft/class_3218;
 	FIELD field_17215 serverLightingProvider Lnet/minecraft/class_3227;
 	FIELD field_17216 mainThreadExecutor Lnet/minecraft/class_1255;
 	FIELD field_17218 chunkGenerator Lnet/minecraft/class_2794;

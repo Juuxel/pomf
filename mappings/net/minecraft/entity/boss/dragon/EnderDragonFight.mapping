@@ -2,7 +2,7 @@ CLASS net/minecraft/class_2881 net/minecraft/entity/boss/dragon/EnderDragonFight
 	FIELD field_13105 crystalCountTimer I
 	FIELD field_13106 endCrystalsAlive I
 	FIELD field_13107 dragonSeenTimer I
-	FIELD field_13108 world Lnet/minecraft/class_3218;
+	FIELD field_13108 level Lnet/minecraft/class_3218;
 	FIELD field_13109 crystals Ljava/util/List;
 	FIELD field_13110 endPortalPattern Lnet/minecraft/class_2700;
 	FIELD field_13111 doLegacyCheck Z

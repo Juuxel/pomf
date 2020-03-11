@@ -4,7 +4,7 @@ CLASS net/minecraft/class_2869 net/minecraft/world/dimension/Dimension
 	FIELD field_13055 type Lnet/minecraft/class_2874;
 	FIELD field_13056 isNether Z
 	FIELD field_13057 waterVaporizes Z
-	FIELD field_13058 world Lnet/minecraft/class_1937;
+	FIELD field_13058 level Lnet/minecraft/class_1937;
 	FIELD field_13059 MOON_PHASE_TO_SIZE [F
 	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_2874;F)V
 		ARG 1 level

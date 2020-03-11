@@ -6,7 +6,7 @@ CLASS net/minecraft/class_3233 net/minecraft/world/ChunkRegion
 	FIELD field_14090 centerChunkX I
 	FIELD field_14091 random Ljava/util/Random;
 	FIELD field_14092 LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD field_14093 world Lnet/minecraft/class_3218;
+	FIELD field_14093 level Lnet/minecraft/class_3218;
 	FIELD field_14094 fluidTickScheduler Lnet/minecraft/class_1951;
 	FIELD field_14095 generatorSettings Lnet/minecraft/class_2888;
 	FIELD field_14096 dimension Lnet/minecraft/class_2869;

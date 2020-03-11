@@ -6,7 +6,7 @@ CLASS net/minecraft/class_3215 net/minecraft/server/world/ServerChunkManager
 	FIELD field_13934 CHUNK_STATUSES Ljava/util/List;
 	FIELD field_13939 chunkGenerator Lnet/minecraft/class_2794;
 	FIELD field_13941 spawnAnimals Z
-	FIELD field_13945 world Lnet/minecraft/class_3218;
+	FIELD field_13945 level Lnet/minecraft/class_3218;
 	FIELD field_17252 ticketManager Lnet/minecraft/class_3204;
 	FIELD field_17253 serverThread Ljava/lang/Thread;
 	FIELD field_17254 threadedAnvilChunkStorage Lnet/minecraft/class_3898;

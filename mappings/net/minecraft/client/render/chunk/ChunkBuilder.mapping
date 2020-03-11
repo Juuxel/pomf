@@ -4,7 +4,7 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBuilder
 	FIELD field_20828 buffers Lnet/minecraft/class_750;
 	FIELD field_20829 mailbox Lnet/minecraft/class_3846;
 	FIELD field_20830 executor Ljava/util/concurrent/Executor;
-	FIELD field_20831 world Lnet/minecraft/class_1937;
+	FIELD field_20831 level Lnet/minecraft/class_1937;
 	FIELD field_20832 worldRenderer Lnet/minecraft/class_761;
 	FIELD field_20992 queuedTaskCount I
 	FIELD field_20993 bufferCount I
