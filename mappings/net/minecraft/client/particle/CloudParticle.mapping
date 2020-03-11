@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_704 net/minecraft/client/particle/CloudParticle
 	METHOD <init> (Lnet/minecraft/class_1937;DDDDDDLnet/minecraft/class_4002;)V
+		ARG 1 level
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z

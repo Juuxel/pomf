@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_693 net/minecraft/client/particle/ItemPickupParticle
+	METHOD <init> (Lnet/minecraft/class_898;Lnet/minecraft/class_4599;Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;)V
+		ARG 3 level
+	METHOD <init> (Lnet/minecraft/class_898;Lnet/minecraft/class_4599;Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;Lnet/minecraft/class_243;)V
+		ARG 3 level

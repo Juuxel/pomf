@@ -1,8 +1,10 @@
 CLASS net/minecraft/class_677 net/minecraft/client/particle/FireworksSparkParticle
 	CLASS class_678 Flash
 		METHOD <init> (Lnet/minecraft/class_1937;DDD)V
-			ARG 1 x
-			ARG 2 y
+			ARG 1 level
+			ARG 2 x
+			ARG 4 y
+			ARG 6 z
 	CLASS class_679 ExplosionFactory
 		FIELD field_17811 spriteProvider Lnet/minecraft/class_4002;
 		METHOD <init> (Lnet/minecraft/class_4002;)V
@@ -12,6 +14,7 @@ CLASS net/minecraft/class_677 net/minecraft/client/particle/FireworksSparkPartic
 		FIELD field_3803 flicker Z
 		FIELD field_3804 trail Z
 		METHOD <init> (Lnet/minecraft/class_1937;DDDDDDLnet/minecraft/class_702;Lnet/minecraft/class_4002;)V
+			ARG 1 level
 			ARG 8 velocityX
 			ARG 10 velocityY
 			ARG 12 velocityZ
@@ -25,6 +28,7 @@ CLASS net/minecraft/class_677 net/minecraft/client/particle/FireworksSparkPartic
 		FIELD field_3807 flicker Z
 		FIELD field_3808 age I
 		METHOD <init> (Lnet/minecraft/class_1937;DDDDDDLnet/minecraft/class_702;Lnet/minecraft/class_2487;)V
+			ARG 1 level
 			ARG 2 x
 			ARG 4 y
 			ARG 6 z
