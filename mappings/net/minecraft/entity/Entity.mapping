@@ -78,7 +78,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	FIELD field_6030 EMPTY_STACK_LIST Ljava/util/List;
 	FIELD field_6031 yaw F
 	FIELD field_6032 AIR Lnet/minecraft/class_2940;
-	FIELD field_6033 inanimate Z
 	FIELD field_6034 vehicle Lnet/minecraft/class_1297;
 	FIELD field_6036 prevY D
 	FIELD field_6037 velocityModified Z
@@ -340,7 +339,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_5684 setInvulnerable (Z)V
 		ARG 1 invulnerable
 	METHOD method_5685 getPassengerList ()Ljava/util/List;
-	METHOD method_5687 allowsPermissionLevel (I)Z
+	METHOD method_5687 hasPermissionLevel (I)Z
 		ARG 1 permissionLevel
 	METHOD method_5688 interact (Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Z
 		COMMENT Called when a player interacts with this entity.
