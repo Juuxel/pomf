@@ -1,17 +1,22 @@
 CLASS net/minecraft/class_85 net/minecraft/loot/entry/LeafEntry
+	COMMENT A loot pool entry that has no child entries and can provide loot independently.
 	FIELD field_994 quality I
 	FIELD field_995 weight I
 	FIELD field_996 functions [Lnet/minecraft/class_117;
 	FIELD field_997 compiledFunctions Ljava/util/function/BiFunction;
 	FIELD field_998 choice Lnet/minecraft/class_82;
+		COMMENT A {@code LootChoice} that generates loot using {@link #generateLoot(Consumer, LootContext)}.
 	METHOD <init> (II[Lnet/minecraft/class_5341;[Lnet/minecraft/class_117;)V
 		ARG 1 weight
 		ARG 2 quality
 		ARG 3 conditions
 		ARG 4 functions
 	METHOD method_433 generateLoot (Ljava/util/function/Consumer;Lnet/minecraft/class_47;)V
+		COMMENT Generates the loot output from this entry and provides it to the consumer.
 		ARG 1 lootConsumer
+			COMMENT a consumer that accepts loot output items
 		ARG 2 context
+			COMMENT the context for the loot generation
 	METHOD method_434 builder (Lnet/minecraft/class_85$class_89;)Lnet/minecraft/class_85$class_86;
 		ARG 0 factory
 	CLASS class_86 Builder

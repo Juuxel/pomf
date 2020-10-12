@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_69 net/minecraft/loot/entry/CombinedEntry
+	COMMENT A loot pool entry that collects loot from its children.
 	FIELD field_982 children [Lnet/minecraft/class_79;
 	FIELD field_983 predicate Lnet/minecraft/class_64;
 	METHOD <init> ([Lnet/minecraft/class_79;[Lnet/minecraft/class_5341;)V

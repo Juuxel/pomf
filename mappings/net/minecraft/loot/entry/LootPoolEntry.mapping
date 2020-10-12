@@ -5,6 +5,7 @@ CLASS net/minecraft/class_79 net/minecraft/loot/entry/LootPoolEntry
 		ARG 1 conditions
 	METHOD method_29318 getType ()Lnet/minecraft/class_5338;
 	METHOD method_414 test (Lnet/minecraft/class_47;)Z
+		COMMENT Tests whether the {@linkplain LootCondition conditions} of this entry match the context.
 		ARG 1 context
 	METHOD method_415 validate (Lnet/minecraft/class_58;)V
 		ARG 1 reporter
